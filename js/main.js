@@ -13,11 +13,11 @@ const SETUP = "Do I have any choice in this?";
 // focus = where to aim object-fit: cover so faces survive the crop
 // subs  = [from, to, text] in clip time
 const clips = {
-    nieu:    { src: "video/nieu.mp4",       rate: 1,   focus: "68% 35%", link: "https://www.youtube.com/watch?v=Ep0z9UiI5io&t=44", subs: [[0, 1.3, "Nieu."]] },
-    short:   { src: "video/nooo-short.mp4", rate: 1,   focus: "68% 35%", link: "https://www.youtube.com/watch?v=Ep0z9UiI5io&t=44", subs: [[0, 0.8, SETUP], [0.82, 2.1, "Nieu."]] },
+    nieu:    { src: "video/nieu.mp4",       rate: 1,   focus: "68% 35%", link: "https://www.youtube.com/watch?v=Ep0z9UiI5io&t=44", subs: [[0, 1.1, "Nieu."]] },
+    short:   { src: "video/nooo-short.mp4", rate: 1,   focus: "68% 35%", link: "https://www.youtube.com/watch?v=Ep0z9UiI5io&t=44", subs: [[0, 1.0, SETUP], [1.01, 2.1, "Nieu."]] },
     long:    { src: "video/nooo-long.mp4",  rate: 1,   focus: "50% 40%", link: "https://www.youtube.com/watch?v=faMh6OYfuNE&t=40s", subs: [] },
     bonus:   { src: "video/nooo-bonus.mp4", rate: 1,   focus: "65% 40%", link: "https://www.youtube.com/watch?v=1IZldRSGW50&t=8s", subs: [] },
-    extreme: { src: "video/nooo-short.mp4", rate: 2.7, focus: "68% 35%", link: "https://www.youtube.com/watch?v=1IZldRSGW50&t=8s", subs: [[0, 0.8, SETUP], [0.82, 2.1, "Nieu."]] }
+    extreme: { src: "video/nooo-short.mp4", rate: 2.7, focus: "68% 35%", link: "https://www.youtube.com/watch?v=1IZldRSGW50&t=8s", subs: [[0, 1.0, SETUP], [1.01, 2.1, "Nieu."]] }
 };
 let current = clips.nieu;
 let looping = false;
